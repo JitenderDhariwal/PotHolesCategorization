@@ -237,7 +237,7 @@ for image_file in image_files:
     image = cv2.imread(uploaded_image_path)
 
     if image is not None:
-        # Process the image (add your processing code here if needed)
+       
 
         # Construct the full path to save the processed image
         processed_image_path = os.path.join(processed_images_dir, image_file)
